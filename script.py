@@ -23,7 +23,6 @@ while True:
     # 6. Detectar rostros en la imagen
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.3, minNeighbors=5)
 
-    
     for (x, y, w, h) in faces: # este codigo recorre cada rostro detectado
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2) # y en esta parte dibuja un rectangulo de color verde a nuestro rostro
 
