@@ -1,6 +1,7 @@
   **RESULTADO DE RECONOCIMIENTO DE OJOS**
 
-  **Descripcion**
+  **Descripcion** :
+  
 Generar un script Python que haga el reconocimiento de ojos, los ojos deben estar enmarcados en un rectángulo o círculo azul.
 
 Se necesitaron instalar la libreria 
