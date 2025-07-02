@@ -10,6 +10,8 @@ pip install opencv
 
 y la expliacion de los codigos de scrip lo puse en el codigo
 
+ **Ressultados de prueba**
+
 **Prueba con un ojo**
 
 ![Resultado detección](un-ojo.png)
