@@ -29,7 +29,7 @@ while True:
         # 7. Región de  para buscar ojos solo dentro del rostro
         roi_gray = gray[y:y + h, x:x + w]
         roi_color = frame[y:y + h, x:x + w]
-
+        
         # 8. Detectar ojos dentro de la región del rostro
         eyes = eye_cascade.detectMultiScale(roi_gray, scaleFactor=1.1, minNeighbors=10)
         # scaleFactor es para detectar con presicion 
